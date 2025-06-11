@@ -1,0 +1,11 @@
+.hero {
+  background-image: url("https://res.cloudinary.com/dwhnmmf3x/image/upload/v1747762828/samples/ecommerce/car-interior-design.jpg");
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.text-shadow-custom{
+    text-shadow: 5px 5px 6px rgb(41, 41, 41);
+}
+

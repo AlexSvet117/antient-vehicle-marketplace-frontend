@@ -9,6 +9,7 @@ function RootLayout() {
       <Navbar>
         <NavButton to ='/demo' text='Demo'/>
         <NavButton to ='/home' text='Home'/>
+        <NavButton to ='/landing' text='Landing'/>
       </Navbar>
       
       <main className='flex-grow-1'>

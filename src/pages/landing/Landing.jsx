@@ -1,9 +1,11 @@
-
+import Hero from '../../components/Hero/Hero.jsx'
 
 function Landing() {
   return (
-    <div>
-      WIP Landing Page
+    <div className='container-fluid'>
+      <div>
+        <Hero/>
+      </div>
     </div>
   )
 }

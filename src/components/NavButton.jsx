@@ -5,7 +5,6 @@ function NavButton({ to, text }) {
   return (
     <>
       <NavLink
-        // className='text-decoration-none btn btn-outline-dark btn-sm m-2'
         to={to}
         className={({ isActive }) => `${isActive ? 'active' : 'non-active'}`}
       >
