@@ -32,7 +32,6 @@
  *   },
  * };
  *
- * @author dmytro-ch21
  */
 export const initialState = () => ({
   // demo for todos - replace with your needed state
@@ -58,7 +57,12 @@ export const initialState = () => ({
 	created_at: "Fri, 23 May 2025 01:22:22 GMT",
 	description: "Super clean Porshe",
 	id: 1,
-	images: [],
+	images: [
+    {
+      image_url: 
+      'https://res.cloudinary.com/dwhnmmf3x/image/upload/1993_Porsche_964_Turbo_S__Leichtbau___cropped_rssqwv.jpg',
+    },
+  ],
 	inspection: "inspected",
 	is_featured: "Yes",
 	latitude: null,

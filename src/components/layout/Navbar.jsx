@@ -4,7 +4,7 @@ function Navbar({children}) {
       <div className="container">
         <a className="navbar-brand" href="#">
           <span className="text-primary fw-bold">
-            {" "}Antient Vehicle Marketplace{" "}
+            {" "}Antique Vehicle Marketplace{" "}
           </span>
         </a>
         <button
