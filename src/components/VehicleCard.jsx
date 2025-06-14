@@ -18,13 +18,17 @@ function VehicleCard({ vehicle }) {
           <h5 className="card-title fw-bold">
             {formatPriceUS}
           </h5>
-          <div>
+          <div className="gap-2 mb-2">
             <span>{vehicle.make} {vehicle.model} </span>
             <span> | </span>
             <span>{vehicle.year} </span>
             <span> | </span>
             <span>{vehicle.milage} miles</span>
           </div>
+          <p className="card-text fw-bolder">
+            {vehicle.title}
+
+          </p>
         </div>
       </div>
     </Link>
