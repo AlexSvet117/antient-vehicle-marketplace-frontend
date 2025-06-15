@@ -11,9 +11,9 @@ function VehicleCard({ vehicle }) {
 
 
   return (
-    <Link to={"/listings/id"} className="text-decoration-none">
+    <Link to={`/listings/${vehicle.id}`} className="text-decoration-none">
       <div className="card">
-        {/* <img src={vehicle.images[0].image_url} className="card-img-top" alt="Car Image" /> */}
+        <img src={vehicle.images[0].image_url} className="card-img-top" alt="Car Image" />
         <div className="card-body">
           <h5 className="card-title fw-bold">
             {formatPriceUS}
@@ -25,7 +25,7 @@ function VehicleCard({ vehicle }) {
             <span> | </span>
             <span>{vehicle.milage} miles</span>
           </div>
-          <p className="card-text fw-bolder">
+          <p className="card-text fw-bolder text-truncate">
             {vehicle.title}
 
           </p>
